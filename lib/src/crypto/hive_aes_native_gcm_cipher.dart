@@ -101,4 +101,10 @@ class HiveAesNativeGcmCipher extends HiveAesCipher {
 
     return concentration.length;
   }
+
+  @override
+  int maxEncryptedSize(Uint8List inp) {
+    // TODO: implement maxEncryptedSize
+    return super.maxEncryptedSize(inp);
+  }
 }
